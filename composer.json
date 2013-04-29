@@ -1,6 +1,6 @@
 {
     "name": "elefunds/sdk",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "PHP SDK for the elefunds API.",
     "minimum-stability": "stable",
     "keywords": ["charity","donation"],
