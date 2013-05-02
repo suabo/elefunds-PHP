@@ -55,26 +55,23 @@ class Elefunds_Configuration_DefaultConfiguration extends Elefunds_Configuration
 
     protected $apiUrl = 'https://connect.elefunds.de';
 
-      /**
-       * Default configuration settings.
-       *
-       * The default configuration uses the basic Donation and Receiver implementations that
-       * ship with the library, as well as a curl based REST connection.
-       *
-       * @return void
-       */
-      public function init() {
-          require_once dirname(__FILE__) . '/../Communication/CurlRequest.php';
-          $this->setRestImplementation(new Elefunds_Communication_CurlRequest());
+    /**
+     * Default configuration settings.
+     *
+     * The default configuration uses the basic Donation and Receiver implementations that
+     * ship with the library, as well as a curl based REST connection.
+     *
+     * @return void
+     */
+    public function init() {
+        require_once dirname(__FILE__) . '/../Communication/CurlRequest.php';
+        $this->setRestImplementation(new Elefunds_Communication_CurlRequest());
 
-          require_once dirname(__FILE__) . '/../Model/Donation.php';
-          $this->setDonationClassName('Elefunds_Model_Donation');
+        require_once dirname(__FILE__) . '/../Model/Donation.php';
+        $this->setDonationClassName('Elefunds_Model_Donation');
 
-          require_once dirname(__FILE__) . '/../Model/Receiver.php';
-          $this->setReceiverClassName('Elefunds_Model_Receiver');
-
-          Elefunds_Model_Factory::setReceiverImplementation($this->getReceiverClassName());
-          Elefunds_Model_Factory::setDonationImplementation($this->getDonationClassName());
-      }
+        require_once dirname(__FILE__) . '/../Model/Receiver.php';
+        $this->setReceiverClassName('Elefunds_Model_Receiver');
+    }
 
 }
