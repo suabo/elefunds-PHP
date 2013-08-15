@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="vendor/autoload.php">
+
+    <testsuites>
+        <testsuite name="elefunds SDK Testsuite">
+            <directory suffix="Test.php">src/Lfnds/Test/Unit</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
