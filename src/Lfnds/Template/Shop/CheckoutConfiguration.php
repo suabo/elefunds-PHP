@@ -55,6 +55,8 @@ require_once __DIR__ . '/../../View/BaseView.php';
 class CheckoutConfiguration extends ShopConfiguration {
 
     /**
+     * Define the checkout variables for the shop template.
+     *
      * @return void
      */
     public function init() {
@@ -104,6 +106,8 @@ class CheckoutConfiguration extends ShopConfiguration {
 
 
     /**
+     * Return the available theme choices.
+     *
      * @return array
      */
     public function getAvailableThemes() {

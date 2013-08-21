@@ -25,8 +25,8 @@ $facade->getConfiguration()->getView()->assign('sumExcludingDonation', $actualTo
 // color: 'orange', 'blue', 'green', 'purple'
 $facade->getConfiguration()->getView()->assign('skin',
     array(
-        'theme' =>  'dark',
-        'color' =>  '#9ADEDF'
+        'theme' =>  'light',
+        'color' =>  '#00efa2'
     )
 );
 
