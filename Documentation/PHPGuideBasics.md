@@ -131,7 +131,7 @@ does not have something like a grand total at all, just omit this.
 please provide the original time when the donation was made.
 
 - `donator` is the user that made the donation, you can send the information (optionally) along, when you want to provide donation receipts. In
-that case, elefunds and its foundation will take care of all the paperwork for you.
+that case, elefunds and its foundation will take care of all the paperwork for you. You can optionally provide a language code and a company name!
 
 That's it, now just send back the donation:
 

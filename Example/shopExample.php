@@ -57,7 +57,6 @@ $facade->getConfiguration()->getView()->assign('skin',
         another implementation.
     -->
     <?php echo $facade->renderTemplate(); ?>
-
     <!-- Even more HTML here -->
 
     <?php echo $facade->getPrintableJavascriptTagStrings(); ?>

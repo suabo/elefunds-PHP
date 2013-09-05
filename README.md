@@ -1,4 +1,4 @@
-elefunds-PHP v2.0.1
+elefunds-PHP v2.0.2
 ===================
 
 The elefunds SDK for connecting to the elefunds API via PHP.

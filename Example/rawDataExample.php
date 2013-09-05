@@ -37,7 +37,7 @@ $response = $facade->addDonations(
                                              ->setReceiverIds(array(1001, 1002))
                                              ->setAvailableReceiverIds(array(1001, 1002, 1003))
                                              ->setTime(new DateTime())
-                                             ->setDonator('hello@elefunds.de', 'Christian', 'Peters', 'Schönhauser Allee 124', 10243, 'Berlin')
+                                             ->setDonator('hello@elefunds.de', 'Christian', 'Peters', 'Schönhauser Allee 124', 10243, 'Berlin', 'dxe', 'elefunds')
 
 )
 
