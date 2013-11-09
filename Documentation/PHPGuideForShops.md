@@ -164,6 +164,7 @@ The process can then be implemented like this:
 
 ```php
 $configuration = new \Lfnds\Template\Shop\CheckoutSuccessConfiguration();
+$helper = new \Lfnds\Template\Shop\Helper\RequestHelper();
 $facade = new \Lfnds\Facade($configuration);
 
 $facade->getConfiguration()
