@@ -59,11 +59,11 @@ In your plugin code, place this logic:
 
 ```php
 $configuration = new \Lfnds\Template\Shop\CheckoutConfiguration();
+$configuration->setClientId($clientId)
+    ->setCountrycode($language);
 $facade = new \Lfnds\Facade($configuration);
 
 $facade->getConfiguration()
-    ->setClientId($clientId)
-    ->setCountrycode($language)
     ->getView()
     ->assign('skin', array(
             'theme' =>  $theme,
